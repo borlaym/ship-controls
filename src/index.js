@@ -31,7 +31,7 @@ function render() {
 	const view = <Step
 		role={model.role}
 		score={model.score}
-		title={currentStep.title}
+		text={currentStep.text}
 		options={currentStep.options}
 		onSelect={callback}
 	/>

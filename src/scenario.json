@@ -1,6 +1,6 @@
 {
 	"commander": [{
-		"text": "When the commander tells you, adjust the pitch",
+		"text": "<span>When the commander tells you</span>, adjust the pitch",
 		"options": {
 			"title": "Pitch (degrees)",
 			"values": [10, 22, 50],

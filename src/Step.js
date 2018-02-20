@@ -10,7 +10,7 @@ export default function Step(props) {
 			</header>
 			<div className="task">
 				<p className="task__label">Next task</p>
-				<p className="task__text">{text}</p>
+				<p className="task__text" dangerouslySetInnerHTML={{ __html: text }} />
 			</div>
 			<div className="task-actions">
 				<p className="task-actions__label">{options.title}</p>
