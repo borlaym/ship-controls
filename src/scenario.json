@@ -361,7 +361,7 @@
 			"correct": 0
 		}
 	}, {
-		"text": "When Speed reaches 1.5 Mach, or Altitude reaches 4 kilometers, tell the crew that the spacecraft has left Max Q.",
+		"text": "When Speed reaches 0.9 Mach, or Altitude reaches 4 kilometers, tell the crew that the spacecraft has left Max Q.",
 		"options": {
 			"title": "",
 			"values": [
