@@ -9,15 +9,6 @@
 			"correct": 0
 		}
 	}, {
-		"text": "Tell Flight Engineer to confirm fuel levels.",
-		"options": {
-			"title": "",
-			"values": [
-				"Done"
-			],
-			"correct": 0
-		}
-	}, {
 		"text": "Tell Flight Engineer to confirm that the engines are on standby and in open circuit mode.",
 		"options": {
 			"title": "",
@@ -36,7 +27,7 @@
 			"correct": 0
 		}
 	}, {
-		"text": "Tell Comms Officer to establish communications with Flight Control.",
+		"text": "Tell Flight Control the flight's callsign, and that the flight is standing by for taxi.",
 		"options": {
 			"title": "",
 			"values": [
@@ -45,7 +36,7 @@
 			"correct": 0
 		}
 	}, {
-		"text": "When Flight Control clears the flight to taxi onto the runway, tell Flight Engineer to start the engines.",
+		"text": "<span class=\"task__condition\">When Flight Control clears the flight to taxi onto the runway,</span> tell Flight Engineer to start the engines.",
 		"options": {
 			"title": "",
 			"values": [
@@ -54,7 +45,7 @@
 			"correct": 0
 		}
 	}, {
-		"text": "When the engines are started, tell the Pilot to taxi onto the runway Flight Control assigned.",
+		"text": "<span class=\"task__condition\">When the engines are started,</span> tell Pilot to taxi onto the runway Flight Control assigned.",
 		"options": {
 			"title": "",
 			"values": [
@@ -63,7 +54,7 @@
 			"correct": 0
 		}
 	}, {
-		"text": "When Ground Control clears the flight for liftoff, tell Flight Engineer to retract the airbrakes.",
+		"text": "<span class=\"task__condition\">When Flight Control clears the flight for liftoff,</span> tell Flight Engineer to retract the airbrakes.",
 		"options": {
 			"title": "",
 			"values": [
@@ -72,7 +63,7 @@
 			"correct": 0
 		}
 	}, {
-		"text": "When the airbrakes are retracted, tell Flight Engineer to throttle up to 105%.",
+		"text": "<span class=\"task__condition\">When the airbrakes are retracted,</span> tell Flight Engineer to throttle up to 105%.",
 		"options": {
 			"title": "",
 			"values": [
@@ -81,7 +72,7 @@
 			"correct": 0
 		}
 	}, {
-		"text": "When Altitude reaches 100 meters, tell Pilot to pitch up to 15 degrees.",
+		"text": "<span class=\"task__condition\">When Altitude reaches 100 meters,</span> tell Pilot to pitch up to 15 degrees.",
 		"options": {
 			"title": "",
 			"values": [
@@ -90,7 +81,7 @@
 			"correct": 0
 		}
 	}, {
-		"text": "When Navigator says the flight is in Phase 1, tell Pilot to pitch up to 45 degrees.",
+		"text": "<span class=\"task__condition\">When Navigator says the flight is in Phase 1,</span> tell Pilot to pitch up to 45 degrees.",
 		"options": {
 			"title": "",
 			"values": [
@@ -99,7 +90,7 @@
 			"correct": 0
 		}
 	}, {
-		"text": "When the Navigator says the spacecraft is approaching Max Q, tell Flight Engineer to throttle down to 70%.",
+		"text": "<span class=\"task__condition\">When Navigator says the spacecraft is approaching Max Q,</span> tell Flight Engineer to throttle down to 70%.",
 		"options": {
 			"title": "",
 			"values": [
@@ -108,7 +99,7 @@
 			"correct": 0
 		}
 	}, {
-		"text": "When the Navigator says the spacecraft has left Max Q, tell Flight Engineer to throttle up to 105%.",
+		"text": "<span class=\"task__condition\">When Navigator says the spacecraft has left Max Q,</span> tell Flight Engineer to throttle up to 105%.",
 		"options": {
 			"title": "",
 			"values": [
@@ -117,7 +108,7 @@
 			"correct": 0
 		}
 	}, {
-		"text": "When Navigator says the flight is in Phase 2, tell Pilot to pitch down to 15 degrees.",
+		"text": "<span class=\"task__condition\">When Navigator says the flight is in Phase 2,</span> tell Pilot to pitch down to 15 degrees.",
 		"options": {
 			"title": "",
 			"values": [
@@ -126,7 +117,7 @@
 			"correct": 0
 		}
 	}, {
-		"text": "When Speed reaches 4 Mach, tell Flight Engineer to turn on engine cooling.",
+		"text": "<span class=\"task__condition\">When Speed reaches 4 Mach,</span> tell Flight Engineer to turn on engine cooling.",
 		"options": {
 			"title": "",
 			"values": [
@@ -135,7 +126,7 @@
 			"correct": 0
 		}
 	}, {
-		"text": "When Pilot has turned on the Reaction Control System, tell Flight Engineer to switch the engines to closed mode.",
+		"text": "<span class=\"task__condition\">When Pilot has turned on the Reaction Control System,</span> tell Flight Engineer to switch the engines to closed mode.",
 		"options": {
 			"title": "",
 			"values": [
@@ -144,7 +135,7 @@
 			"correct": 0
 		}
 	}, {
-		"text": "When Flight Engineer has switched the engines to closed mode, tell Pilot to pitch up 45 degrees.",
+		"text": "<span class=\"task__condition\">When Flight Engineer has switched the engines to closed mode,</span> tell Pilot to pitch up 45 degrees.",
 		"options": {
 			"title": "",
 			"values": [
@@ -153,7 +144,7 @@
 			"correct": 0
 		}
 	}, {
-		"text": "When Navigator says the flight is in Phase 4, tell Flight Engineer to throttle down to zero.",
+		"text": "<span class=\"task__condition\">When Navigator says the flight is in Phase 4,</span> tell Flight Engineer to throttle down to zero.",
 		"options": {
 			"title": "",
 			"values": [
@@ -162,7 +153,7 @@
 			"correct": 0
 		}
 	}, {
-		"text": "When Flight Engineer has throttled to zero, tell Pilot to turn to prograde.",
+		"text": "<span class=\"task__condition\">When Flight Engineer has throttled to zero,</span> tell Pilot to turn to prograde.",
 		"options": {
 			"title": "",
 			"values": [
@@ -171,7 +162,7 @@
 			"correct": 0
 		}
 	}, {
-		"text": "When Pilot has turned to prograde, tell Flight Engineer to deploy the solar panels.",
+		"text": "Tell Flight Engineer to deploy the solar panels.",
 		"options": {
 			"title": "",
 			"values": [
@@ -180,7 +171,7 @@
 			"correct": 0
 		}
 	}, {
-		"text": "When Pilot has turned to prograde, tell Comms officer to deploy the antennas.",
+		"text": "Tell Pilot to deploy the antennas.",
 		"options": {
 			"title": "",
 			"values": [
@@ -190,7 +181,7 @@
 		}
 	}],
 	"pilot": [{
-		"text": "When Commander asks, confirm that the airbrakes are engaged.",
+		"text": "<span class=\"task__condition\">When Commander asks,</span> confirm that the airbrakes are engaged.",
 		"options": {
 			"title": "",
 			"values": [
@@ -199,142 +190,78 @@
 			"correct": 0
 		}
 	}, {
-		"text": "When Commander asks, taxi onto the runway.",
+		"text": "<span class=\"task__condition\">When Commander asks,</span> taxi onto the runway.",
 		"options": {
 			"title": "Taxi to runway",
 			"values": ["06", "08", "09"],
 			"correct": 2
 		}
 	}, {
-		"text": "When Comms officer asks, rotate the spacecraft.",
+		"text": "<span class=\"task__condition\">When Navigator asks,</span> rotate the spacecraft.",
 		"options": {
 			"title": "Pitch",
 			"values": ["Rotate"],
 			"correct": 0
 		}
 	}, {
-		"text": "When Commander asks, adjust the pitch.",
+		"text": "<span class=\"task__condition\">When Commander asks,</span> adjust the pitch.",
 		"options": {
 			"title": "Pitch (degrees)",
 			"values": ["5", "10", "15"],
 			"correct": 2
 		}
 	}, {
-		"text": "When Commander asks, adjust the pitch again.",
+		"text": "<span class=\"task__condition\">When Commander asks,</span> adjust the pitch again.",
 		"options": {
 			"title": "Pitch (degrees)",
-			"values": ["15", "45", "90"],
+			"values": ["15", "45", "75"],
 			"correct": 1
 		}
 	}, {
-		"text": "When Commander asks, adjust the pitch.",
+		"text": "<span class=\"task__condition\">When Commander asks,</span> adjust the pitch.",
 		"options": {
 			"title": "Pitch (degrees)",
-			"values": ["15", "45", "90"],
+			"values": ["15", "25", "45"],
 			"correct": 0
 		}
 	}, {
-		"text": "When Altitude reaches 5500 meters, tell Flight Engineer to engage the Stability Assist System (SAS).",
+		"text": "<span class=\"task__condition\">When Altitude reaches 5500 meters,</span> tell Flight Engineer to engage the Stability Assist System (SAS).",
 		"options": {
 			"title": "",
 			"values": ["Done"],
 			"correct": 0
 		}
 	}, {
-		"text": "When Flight Engineer asks, adjust subsystem settings.",
+		"text": "<span class=\"task__condition\">When Flight Engineer asks,</span> adjust subsystem settings.",
 		"options": {
 			"title": "Subsystem controls",
-			"values": ["SAS ON", "RCS ON", "LDG DEP", "BRK DEP", "SOL DEP", "ANT DEP"],
+			"values": ["SAS OFF", "RCS ON", "LDG DEP", "BRK DEP", "SOL DEP", "ANT DEP"],
 			"correct": 1
 		}
 	}, {
-		"text": "When Commander asks, adjust the pitch.",
+		"text": "<span class=\"task__condition\">When Commander asks,</span> adjust the pitch.",
 		"options": {
 			"title": "Pitch (degrees)",
 			"values": ["15", "30", "45"],
 			"correct": 2
 		}
 	}, {
-		"text": "When Commander asks, turn the spacecraft with the SAS.",
+		"text": "<span class=\"task__condition\">When Commander asks,</span> turn the spacecraft with the SAS.",
 		"options": {
 			"title": "SAS mode",
-			"values": ["SAS Off", "Hold", "Prograde", "Retrograde", "Normal", "Antinormal"],
-			"correct": 2
-		}
-	}],
-	"comms officer": [{
-		"text": "When Commander asks, tell Flight Control the flight's callsign, and that the flight is standing by for taxi.",
-		"options": {
-			"title": "",
-			"values": [
-				"Done"
-			],
-			"correct": 0
+			"values": ["Hold", "Prograde", "Retrograde", "Normal", "Antinormal"],
+			"correct": 1
 		}
 	}, {
-		"text": "When Pilot says the plane is on the runway, tell Flight Control.",
-		"options": {
-			"title": "",
-			"values": [
-				"Done"
-			],
-			"correct": 0
-		}
-	}, {
-		"text": "When Speed reaches 0.1 Mach, say \"V1\".",
-		"options": {
-			"title": "",
-			"values": [
-				"Done"
-			],
-			"correct": 0
-		}
-	}, {
-		"text": "When Speed reaches 0.2 Mach, tell Pilot to rotate.",
-		"options": {
-			"title": "",
-			"values": [
-				"Done"
-			],
-			"correct": 0
-		}
-	}, {
-		"text": "When Navigator says the flight is in Phase 1, tell Flight Control.",
-		"options": {
-			"title": "",
-			"values": [
-				"Done"
-			],
-			"correct": 0
-		}
-	}, {
-		"text": "When Navigator says the flight is in Phase 2, tell Flight Control.",
-		"options": {
-			"title": "",
-			"values": [
-				"Done"
-			],
-			"correct": 0
-		}
-	}, {
-		"text": "When Speed reaches 3 Mach, tell Flight Control that the spacecraft is entering comms blackout.",
-		"options": {
-			"title": "",
-			"values": [
-				"Done"
-			],
-			"correct": 0
-		}
-	}, {
-		"text": "When Commander asks, adjust subsystem settings.",
+		"text": "<span class=\"task__condition\">When Commander asks,</span> adjust subsystem settings.",
 		"options": {
 			"title": "Subsystem controls",
-			"values": ["SAS ON", "RCS ON", "LDG DEP", "BRK DEP", "SOL RET", "ANT DEP"],
+			"values": ["SAS OFF", "RCS OFF", "LDG DEP", "BRK DEP", "SOL RET", "ANT DEP"],
 			"correct": 5
 		}
 	}],
 	"navigator": [{
-		"text": "When Commander asks, confirm the course is set.",
+		"text": "<span class=\"task__condition\">When Commander asks,</span> confirm the course is set.",
 		"options": {
 			"title": "",
 			"values": [
@@ -343,7 +270,7 @@
 			"correct": 0
 		}
 	}, {
-		"text": "When Altitude reaches 1000 meters, tell the crew the flight is entering Phase 1.",
+		"text": "<span class=\"task__condition\">When Pilot says the plane is on the runway,</span> tell Flight Control the flight is standing by for liftoff.",
 		"options": {
 			"title": "",
 			"values": [
@@ -352,7 +279,7 @@
 			"correct": 0
 		}
 	}, {
-		"text": "When Speed reaches 0.75 Mach, or Altitude reaches 3500 meters, tell the crew that the spacecraft is approaching Max Q.",
+		"text": "<span class=\"task__condition\">When Speed reaches 0.1 Mach,</span> tell Pilot \"V1\".",
 		"options": {
 			"title": "",
 			"values": [
@@ -361,7 +288,7 @@
 			"correct": 0
 		}
 	}, {
-		"text": "When Speed reaches 0.9 Mach, or Altitude reaches 4 kilometers, tell the crew that the spacecraft has left Max Q.",
+		"text": "<span class=\"task__condition\">When Speed reaches 0.2 Mach,</span> tell Pilot to rotate.",
 		"options": {
 			"title": "",
 			"values": [
@@ -370,7 +297,7 @@
 			"correct": 0
 		}
 	}, {
-		"text": "When Altitude reaches 5 kilometers, tell the crew the flight is entering Phase 2.",
+		"text": "<span class=\"task__condition\">When Altitude reaches 1000 meters,</span> tell the crew the flight is entering Phase 1.",
 		"options": {
 			"title": "",
 			"values": [
@@ -379,7 +306,7 @@
 			"correct": 0
 		}
 	}, {
-		"text": "When Altitude reaches 10 kilometers, or thrust-to-weight ratio (TWR) drops below 1.5, tell the crew the flight is entering Phase 3.",
+		"text": "<span class=\"task__condition\">When Speed reaches 0.75 Mach, or Altitude reaches 3500 meters,</span> tell the crew that the spacecraft is approaching Max Q.",
 		"options": {
 			"title": "",
 			"values": [
@@ -388,7 +315,7 @@
 			"correct": 0
 		}
 	}, {
-		"text": "When the apoapsis reaches 120 kilometers, tell the crew the flight is entering Phase 4.",
+		"text": "<span class=\"task__condition\">When Speed reaches 0.9 Mach, or Altitude reaches 4 kilometers,</span> tell the crew that the spacecraft has left Max Q.",
 		"options": {
 			"title": "",
 			"values": [
@@ -397,7 +324,43 @@
 			"correct": 0
 		}
 	}, {
-		"text": "When the altitude reaches 115 kilometers, tell Flight Engineer to set throttle to 70%. Then count down 10 seconds and tell Flight Engineer to set throttle to zero.",
+		"text": "<span class=\"task__condition\">When Altitude reaches 5 kilometers,</span> tell the crew the flight is entering Phase 2.",
+		"options": {
+			"title": "",
+			"values": [
+				"Done"
+			],
+			"correct": 0
+		}
+	}, {
+		"text": "<span class=\"task__condition\">When Speed reaches 3 Mach,</span> tell Flight Control that the spacecraft is entering comms blackout.",
+		"options": {
+			"title": "",
+			"values": [
+				"Done"
+			],
+			"correct": 0
+		}
+	}, {
+		"text": "<span class=\"task__condition\">When Altitude reaches 10 kilometers, or thrust-to-weight ratio (TWR) drops below 1.5,</span> tell the crew the flight is entering Phase 3.",
+		"options": {
+			"title": "",
+			"values": [
+				"Done"
+			],
+			"correct": 0
+		}
+	}, {
+		"text": "<span class=\"task__condition\">When the apoapsis reaches 120 kilometers,</span> tell the crew the flight is entering Phase 4.",
+		"options": {
+			"title": "",
+			"values": [
+				"Done"
+			],
+			"correct": 0
+		}
+	}, {
+		"text": "<span class=\"task__condition\">When the altitude reaches 115 kilometers,</span> tell Flight Engineer to set throttle to 70%. Then count down 10 seconds and tell Flight Engineer to set throttle to zero.",
 		"options": {
 			"title": "",
 			"values": [
@@ -407,7 +370,7 @@
 		}
 	}],
 	"Flight Engineer": [{
-		"text": "When Commander asks, call out all fuel levels.",
+		"text": "<span class=\"task__condition\">When Commander asks,</span> confirm that the engines are on standby and in open circuit mode.",
 		"options": {
 			"title": "",
 			"values": [
@@ -416,16 +379,7 @@
 			"correct": 0
 		}
 	}, {
-		"text": "When Commander asks, confirm that the engines are on standby and in open circuit mode.",
-		"options": {
-			"title": "",
-			"values": [
-				"Done"
-			],
-			"correct": 0
-		}
-	}, {
-		"text": "When Commander asks, start the engines.",
+		"text": "<span class=\"task__condition\">When Commander asks,</span> start the engines.",
 		"options": {
 			"title": "Engine controls",
 			"values": [
@@ -436,14 +390,14 @@
 			"correct": 0
 		}
 	}, {
-		"text": "When Commander asks, adjust subsystem settings.",
+		"text": "<span class=\"task__condition\">When Commander asks,</span> adjust subsystem settings.",
 		"options": {
 			"title": "Subsystem controls",
 			"values": ["SAS ON", "RCS ON", "LDG DEP", "BRK RET", "SOL DEP", "ANT DEP"],
 			"correct": 3
 		}
 	}, {
-		"text": "When Commander asks, adjust the throttle.",
+		"text": "<span class=\"task__condition\">When Commander asks,</span> adjust the throttle.",
 		"options": {
 			"title": "Main engines throttle",
 			"values": [
@@ -452,7 +406,14 @@
 			"correct": 4
 		}
 	}, {
-		"text": "When Commander asks, adjust the throttle again.",
+		"text": "<span class=\"task__condition\">When Commander asks,</span> adjust subsystem settings.",
+		"options": {
+			"title": "Subsystem controls",
+			"values": ["SAS ON", "RCS ON", "LDG RET", "BRK DEP", "SOL DEP", "ANT DEP"],
+			"correct": 3
+		}
+	}, {
+		"text": "<span class=\"task__condition\">When Commander asks,</span> adjust the throttle.",
 		"options": {
 			"title": "Main engines throttle",
 			"values": [
@@ -461,7 +422,7 @@
 			"correct": 3
 		}
 	}, {
-		"text": "When Commander asks, adjust the throttle.",
+		"text": "<span class=\"task__condition\">When Commander asks,</span> adjust the throttle again.",
 		"options": {
 			"title": "Main engines throttle",
 			"values": [
@@ -470,14 +431,14 @@
 			"correct": 4
 		}
 	}, {
-		"text": "When Pilot asks, adjust subsystem settings.",
+		"text": "<span class=\"task__condition\">When Pilot asks,</span> adjust subsystem settings.",
 		"options": {
 			"title": "Subsystem controls",
 			"values": ["SAS ON", "RCS ON", "LDG DEP", "BRK DEP", "SOL DEP", "ANT DEP"],
 			"correct": 0
 		}
 	}, {
-		"text": "When Commander asks, adjust engine settings.",
+		"text": "<span class=\"task__condition\">When Commander asks,</span> adjust engine settings.",
 		"options": {
 			"title": "Engine controls",
 			"values": [
@@ -488,7 +449,7 @@
 			"correct": 2
 		}
 	}, {
-		"text": "When Commander asks, adjust engine settings again.",
+		"text": "<span class=\"task__condition\">When Commander asks,</span> adjust engine settings again.",
 		"options": {
 			"title": "Engine controls",
 			"values": [
@@ -499,7 +460,7 @@
 			"correct": 1
 		}
 	}, {
-		"text": "When Commander asks, adjust the throttle.",
+		"text": "<span class=\"task__condition\">When Commander asks,</span> adjust the throttle.",
 		"options": {
 			"title": "Main engines throttle",
 			"values": [
@@ -508,14 +469,14 @@
 			"correct": 0
 		}
 	}, {
-		"text": "When Commander asks, adjust subsystem settings.",
+		"text": "<span class=\"task__condition\">When Commander asks,</span> adjust subsystem settings.",
 		"options": {
 			"title": "Subsystem controls",
 			"values": ["SAS ON", "RCS ON", "LDG DEP", "BRK DEP", "SOL DEP", "ANT DEP"],
 			"correct": 4
 		}
 	}, {
-		"text": "When Navigator asks, adjust the throttle.",
+		"text": "<span class=\"task__condition\">When Navigator asks,</span> adjust the throttle.",
 		"options": {
 			"title": "Main engines throttle",
 			"values": [
@@ -524,7 +485,7 @@
 			"correct": 3
 		}
 	}, {
-		"text": "When Navigator asks, adjust the throttle again.",
+		"text": "<span class=\"task__condition\">When Navigator asks,</span> adjust the throttle again.",
 		"options": {
 			"title": "Main engines throttle",
 			"values": [
@@ -534,7 +495,7 @@
 		}
 	}],
 	"flight control": [{
-		"text": "When the flight checks in, tell them they are cleared to taxi onto Runway 09.",
+		"text": "<span class=\"task__condition\">When the flight checks in,</span> tell them they are cleared to taxi onto Runway 09.",
 		"options": {
 			"title": "",
 			"values": [
@@ -543,7 +504,7 @@
 			"correct": 0
 		}
 	}, {
-		"text": "When the flight is on the runway, tell them they are cleared for liftoff.",
+		"text": "<span class=\"task__condition\">When the flight is on the runway,</span> tell them they are cleared for liftoff.",
 		"options": {
 			"title": "",
 			"values": [
@@ -552,7 +513,7 @@
 			"correct": 0
 		}
 	}, {
-		"text": "When Flight Engineer adjusts the throttle, start the game.",
+		"text": "<span class=\"task__condition\">When Flight Engineer adjusts the throttle,</span> start the game.",
 		"options": {
 			"title": "",
 			"values": [
@@ -561,7 +522,7 @@
 			"correct": 0
 		}
 	}, {
-		"text": "When the flight throttles up after Max Q, tell them they are go at throttle up.",
+		"text": "<span class=\"task__condition\">When the flight throttles up after Max Q,</span> tell them they are go at throttle up.",
 		"options": {
 			"title": "",
 			"values": [
