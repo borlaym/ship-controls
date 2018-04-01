@@ -3,13 +3,16 @@ import ReactDOM from 'react-dom';
 import registerServiceWorker from './registerServiceWorker';
 import RoleSelector from './RoleSelector';
 import Step from './Step';
+import EndScreen from './EndScreen';
 import scenario from './scenario.json';
 
 const model = {
 	role: null,
 	score: 0,
+	maxScore: 0,
 	step: 0
 };
+var view = "";
 
 function render() {
 	if (!model.role) {
@@ -23,18 +26,29 @@ function render() {
 	const currentStep = scenario[model.role][model.step];
 	const callback = (correct) => {
 		if (correct) {
-			model.score = model.score + 1;
+			model.score++;
 		}
-		model.step = model.step + 1;
+		model.step++;
+		model.maxScore++;
 		render();
 	}
-	const view = <Step
-		role={model.role}
-		score={model.score}
-		text={currentStep.text}
-		options={currentStep.options}
-		onSelect={callback}
-	/>
+	if (typeof currentStep !== 'undefined') {
+
+		view = <Step
+			role={model.role}
+			score={model.score}
+			text={currentStep.text}
+			options={currentStep.options}
+			onSelect={callback}
+		/>
+	} else {
+
+		view = <EndScreen
+			role={model.role}
+			score={model.score}
+			maxScore={model.maxScore}
+		/>
+	}
 	return ReactDOM.render(view, document.getElementById('root'));
 }
 
